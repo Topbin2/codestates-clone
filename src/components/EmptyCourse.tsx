@@ -30,8 +30,8 @@ const EmptyCourse = () => {
   return (
     <Wrapper>
       <img
-        src="	https://urclass.codestates.com/static/media/emptyContentCover.55f563d7.png"
-        alt=""
+        src="https://urclass.codestates.com/static/media/emptyContentCover.55f563d7.png"
+        alt="빈 코스"
       />
       <h1>코스가 비어있습니다.</h1>
       <p>자세한 코스 정보는 마이페이지를 확인해주세요.</p>
