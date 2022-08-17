@@ -1,4 +1,5 @@
 {
+  "parser": "@typescript-eslint/parser",
   "plugins": ["testing-library", "jest-dom"],
   "extends": [
     "react-app",
