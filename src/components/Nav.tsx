@@ -96,13 +96,13 @@ const Nav = () => {
         <nav>
           <GiHamburgerMenu className="menuIcon" />
           <div className="tabContainer">
-            <Link to="/course/active">
+            <Link to="/course/active" data-testid="link1">
               <button className="tab">수강 중인 코스</button>
             </Link>
-            <Link to="/coplit">
+            <Link to="/coplit" data-testid="link2">
               <button>코플릿</button>
             </Link>
-            <Link to="/job">
+            <Link to="/job" data-testid="link3">
               <button className="jobs">Jobs</button>
             </Link>
             <IoPersonCircleSharp

@@ -13,7 +13,7 @@ describe("EmptyCourse Component", () => {
     const img = screen.getByAltText("빈 코스");
     expect(img).toHaveAttribute(
       "src",
-      "https://urclass.codestates.com/static/media/emptyContentCover.55f563d7.png"
+      "https://urclass.codestates.com/static/media/img-empty-content.55f563d7.png"
     );
   });
 
