@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer snapshot 1`] = `
+<div
+  className="footer"
+>
+  <div
+    className="sc-bczRLJ lnbbFP"
+  >
+    <div
+      className="footer_bottom"
+    >
+      <span>
+        © Copyright ⓒ 2022 CodeStates
+      </span>
+    </div>
+  </div>
+</div>
+`;
