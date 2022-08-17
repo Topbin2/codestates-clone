@@ -1,5 +1,5 @@
 import App from "../../App";
-import { getAllByRole, render, screen } from "../../utils/test-utils";
+import { render, screen } from "../../utils/test-utils";
 
 describe("route", () => {
   it("'/' path는 Main 컴포넌트가 렌더링 된다.", () => {
