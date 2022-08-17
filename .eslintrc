@@ -6,5 +6,8 @@
     "react-app/jest",
     "plugin:testing-library/react",
     "plugin:jest-dom/recommended"
-  ]
+  ],
+  "rules": {
+    "testing-library/no-container": 0
+  }
 }
