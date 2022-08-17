@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import store from "./store/store";
+import { setupStore } from "./store/store";
 import { Provider } from "react-redux";
 import { GlobalStyle } from "./assets/global/globalStyle";
 
@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.Fragment>
     <BrowserRouter>
-      <Provider store={store}>
-          <GlobalStyle />
-          <App />
+      <Provider store={setupStore()}>
+        <GlobalStyle />
+        <App />
       </Provider>
     </BrowserRouter>
   </React.Fragment>
