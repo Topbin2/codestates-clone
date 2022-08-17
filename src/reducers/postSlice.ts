@@ -36,6 +36,7 @@ const postSlice = createSlice({
             url: faker.image.image(),
           };
         });
+        console.log(addedViewsProperty);
         state.isLoading = false;
         state.posts.push(...addedViewsProperty);
       })
